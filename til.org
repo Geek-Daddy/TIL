@@ -1,0 +1,7 @@
+* Windows 10
+** OpenVPN
+   OpenVPN was failing to start on my laptop. Problem was with openvpn
+   not setting DNS properly. Solution was to run powershell with
+   administrator privileges and using this command:
+   
+   openvpn --config config_file --ip-win32 ipapi
