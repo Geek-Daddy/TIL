@@ -5,3 +5,8 @@
    administrator privileges and using this command:
    
    openvpn --config config_file --ip-win32 ipapi
+* Programming
+** JS email regexp
+   This is a simple email regexp to validate email adress with whole TLD: 	
+   
+   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
